@@ -1,12 +1,13 @@
 let form = document.getElementById('addForm');
 let text=document.getElementById('item');
-
+let discription=document.getElementById('discription');
 // added event listener to submit form button
 form.addEventListener('submit',(e)=>{
     e.preventDefault();
     let list = document.createElement('li');
     list.className='list-group-item';
-    list.textContent=text.value;
+    list.textContent=`${text.value} ${discription.value}`;
+    // list.textContent=text.value;
     let btn = document.createElement('button');
     btn.innerText='X';
     btn.className='btn btn-danger btn-sm float-right delete';
