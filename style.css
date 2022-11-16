@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+    color: green;
+}
+form{
+    margin: 5px;
+    border: 1px solid black;
+    text-align: center;
+    padding-bottom: 3px;
+}
+input{
+    padding: 5px;
+    margin-top: 5px;
+}
